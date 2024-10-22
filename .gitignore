@@ -1,0 +1,58 @@
+# Archivos de RAD e IDE
+.metadata/
+*.snap
+*.iml
+.idea/
+*.class
+*.log
+*.swp
+.DS_Store
+
+# Directorios de construcción y binarios
+bin/
+build/
+target/
+dist/
+out/
+
+# Archivos de configuración temporales
+*.temp
+*.tmp
+*.bak
+
+# Archivos generados por el servidor WAS
+*.class
+logs/
+tmp/
+work/
+local/
+
+# Archivos de configuración de WebSphere
+.wsd/
+.wsi/
+.wsdl2java/
+.wsgen/
+was.policy
+was.profile/
+was_plugin_config/
+was_server_config/
+
+# Configuraciones locales
+*.settings/
+.vscode/
+*.launch
+*.prefs
+
+# Archivos de Maven o Gradle (si se usan)
+.mvn/
+.gradle/
+build/
+target/
+!**/src/main/**
+!**/src/test/**
+
+# Archivos de Eclipse
+*.project
+*.classpath
+*.jmx
+*.xml
